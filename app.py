@@ -2,7 +2,6 @@ import os
 import shutil
 from collections import Counter
 
-# OK
 def reverter(input_string):
     
     # Divide a frase em palavras, as armazena numa lista e reverte a ordem
@@ -12,7 +11,6 @@ def reverter(input_string):
     frase_invertida = ' '.join(palavras)
     return frase_invertida
 
-# OK
 def remover_duplicados(input_string):
     caracteres_unicos = []
     
@@ -26,7 +24,6 @@ def remover_duplicados(input_string):
     
     return texto_sem_duplicados
 
-# OK
 def substring_palindroma(input_string):
     tamanho = len(input_string)
 
@@ -64,7 +61,6 @@ def substring_palindroma(input_string):
     # Retorna a maior substring palíndroma encontrada
     return input_string[inicio_palindromo:inicio_palindromo + tamanho_palindromo]
 
-# OK
 def primeira_maiuscula(input_string):
     return input_string.title()
     
