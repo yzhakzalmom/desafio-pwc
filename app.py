@@ -66,6 +66,8 @@ def primeira_maiuscula(input_string):
     
 def anagrama_palindromo(input_string):
     
+    input_string = input_string.lower()
+    
     # Contabiliza a frequência de cada caractere na entrada
     frequencia = Counter(input_string)
 
